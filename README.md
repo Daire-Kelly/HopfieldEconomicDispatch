@@ -18,9 +18,7 @@ $$
 subject to:
 
 - **Power Balance Constraint:**\
-  $$
-  \sum_{i=1}^{N} P_i - P^D - P^L = 0
-  $$\
+  $$\sum_{i=1}^{N} P_i - P^D - P^L = 0$$\
   where $(P^D)$ is the demand, $(P^L)$ represents transmission losses, typically modeled as:\
   $$
   P^L = \sum_{i=1}^{N} B_i P_i^2
