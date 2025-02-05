@@ -31,7 +31,7 @@ subject to:
   P_{\text{min}, i} \leq P_i \leq P_{\text{max}, i} \quad \forall i = 1, \ldots, N
   $$
 
-Here, \(N\) is the number of generators, \(P_i\) is the power output, and \(a_i, b_i, c_i\) are cost coefficients. \(B_i\) are the coefficients for transmission losses.
+Here, $(N)$ is the number of generators, \(P_i\) is the power output, and \(a_i, b_i, c_i\) are cost coefficients. \(B_i\) are the coefficients for transmission losses.
 
 ## Background
 
