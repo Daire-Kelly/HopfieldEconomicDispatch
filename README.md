@@ -80,7 +80,7 @@ This notebook was developed using Google Colab, plain vanilla free tier cpu only
 ## To Do
 - Implement features to enable multi experiment runs
 - Better instrumentation and analytic tools, especially for run comparisons
-- Adapt calculate_dt to implement Ranger Hybrid Optimiser, prior to introducing more complexity
+- Find a better gradient descent optimiser approach. Presently experiementing with AdamR + Lookahead hybrid
 - Generator warmup / ramp rates
 - Generator cooloff
 - Dialable timesteps. Presently its fixed at 30 minutes. 15 and 5 minute intervals would be useful for warmup, ramp and cooloff.
