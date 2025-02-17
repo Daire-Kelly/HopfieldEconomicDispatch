@@ -45,7 +45,7 @@ These papers focus on using HNNs for large-scale systems, managing constraints t
 - **Dynamic Weight Matrix:** Incorporates temporal coherence to link generator outputs across time.
 - **Advanced Gradient Calculation:** Combines cost and constraint gradients for more accurate optimization:
   - **Cost Gradient:** Derived from the Hopfield network's energy function.
-  - **Constraint Gradient:** Ensures demand is met across all timesteps.
+  - **Power Balance Gradient:** Ensures demand is met across all timesteps.
 - **Adaptive Learning Rate:** Dynamically adjusts for better convergence.
 - **Data Generation:** Utilizes real-world data from Ireland to simulate realistic scenarios, including:
   - **Generator Capacities:** Based on observed data with added variability.
